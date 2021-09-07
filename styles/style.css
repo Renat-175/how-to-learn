@@ -76,7 +76,7 @@ a {
   background-color:  #2f80ed;
   position: absolute;
   top: 64px;
-  right: 0; 
+  right: 0;
   padding-bottom: 0;
   z-index: 1;
 }
@@ -321,7 +321,7 @@ a {
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-evenly;
   top: 20px;
   bottom: 16px;
   align-content: space-between;
@@ -336,6 +336,7 @@ a {
   margin-bottom: 0;
 }
 .footer__column-links {
+  line-height: 30px;
   top: 20px;
   bottom: 16px;
   color: #f2f2f2;
@@ -346,8 +347,8 @@ a {
 .footer__social-icon {
   color: #f2f2f2;
   right: 10px;
-  max-width: 16px;
-  max-height: 16px;
+  width: 16px;
+  height: 16px;
 }
 .footer__column-link {
 color: #f2f2f2;
@@ -357,11 +358,14 @@ color: #f2f2f2;
   margin-top: 0;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  justify-content: space-around;
   flex-direction: column;
   bottom: 16px;
 }
 h3 {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
   color: #f2f2f2; 
 }
 
