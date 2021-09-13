@@ -6,7 +6,7 @@
   max-width: 1600px;
   /* выше установили ограничение по максимальной ширине */
   /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: "Helvetica Neue", Arial, sans-serif;
 }
 .header {
   height: 100vh;
@@ -17,7 +17,7 @@
   position: relative;
   align-content: center;
   align-items: center;
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 .logo {
@@ -49,7 +49,7 @@
   bottom: 30px;
   z-index: 470;
 }
-  .header__link {
+.header__link {
   text-decoration: none;
   color: #2f80ed;
   z-index: 480;
@@ -65,7 +65,7 @@
 .header__square-pic {
   height: 568px;
   width: 568px;
-  background-color:  #2f80ed;
+  background-color: #2f80ed;
   position: absolute;
   top: 64px;
   right: 0;
@@ -73,7 +73,7 @@
   z-index: 1;
 }
 .description {
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
   top: 100px;
   bottom: 100px;
 }
@@ -93,7 +93,7 @@
   font-size: 18px;
   font-weight: normal;
   max-width: 175px;
-  color: #2F80ED;
+  color: #2f80ed;
 }
 .two-columns__span-accent {
   line-height: 34px;
@@ -101,7 +101,7 @@
   font-weight: bold;
 }
 
-.two-columns__paragraph{
+.two-columns__paragraph {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -112,10 +112,10 @@
   font-size: 24px;
 }
 .digits {
-  background-color:  #f2f2f2;
+  background-color: #f2f2f2;
 }
 .section-title {
-  color:  #000000;
+  color: #000000;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -167,6 +167,7 @@
 }
 
 .feynman {
+  margin-top: 100px;
   position: relative;
   height: 890px;
   text-align: center;
@@ -175,7 +176,7 @@
 }
 
 .feynman__title {
-  margin-top: 100px;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.15;
@@ -184,7 +185,7 @@
   max-width: 648px;
   bottom: 70px;
 }
-  .feynman__subtitle {
+.feynman__subtitle {
   color: #000000;
   margin-left: auto;
   margin-right: auto;
@@ -216,7 +217,7 @@
   background-color: #1f1f1f;
   z-index: -5;
 }
-.section-title_theme_dark {
+.section-title__theme_dark {
   color: #f2f2f2;
   line-height: 1.15;
   font-size: 60px;
@@ -228,7 +229,7 @@
   display: flex;
   justify-content: center;
 }
-.section-subtitle_theme_dark {
+.section-subtitle__theme_dark {
   color: #f2f2f2;
   line-height: 34px;
   font-size: 24px;
@@ -277,18 +278,18 @@
   position: absolute;
   z-index: -1;
 }
-span.two-columnc__span-accent{
-  color:  #000000;
+span.two-columnc__span-accent {
+  color: #000000;
 }
 .footer {
-  background-color:   #1f1f1f;
+  background-color: #1f1f1f;
   min-height: 350px;
   position: relative;
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
 }
-  .footer__columns {
+.footer__columns {
   display: flex;
   flex-basis: 711px;
   min-width: 90%;
@@ -342,7 +343,6 @@ span.two-columnc__span-accent{
   flex-wrap: nowrap;
 }
 .footer__social-icon {
-
   color: #f2f2f2;
   margin-right: 10px;
   width: 16px;
@@ -364,9 +364,6 @@ span.two-columnc__span-accent{
   margin: 0;
 }
 
-
 /* и элемента с модификатором вида ключ-значение */
 
-
 /* и элемента с модификатором вида ключ-значение */
-
