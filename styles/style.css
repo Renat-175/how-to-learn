@@ -146,6 +146,8 @@
   width: 1100px;
   flex-wrap: wrap;
   justify-content: space-between;
+  flex-direction: row;
+  align-content: flex-start;
 }
 .table__cell {
   width: 250px;
@@ -221,44 +223,39 @@
   color: #f2f2f2;
   line-height: 1.15;
   font-size: 60px;
-  font-weight: bold;
-  margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
+  font-weight: normal;
+  margin: 90px auto 0 auto;
   max-width: 60%;
-  display: flex;
   justify-content: center;
+  display: flex;
 }
 .section-subtitle__theme_dark {
   color: #f2f2f2;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto 0 auto;
   max-width: 60%;
   justify-content: center;
   display: flex;
 }
 .table__theme_dark {
   display: flex;
-  padding-bottom: 90px;
-  flex-wrap: wrap;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto 90px auto;
   width: 1100px;
-  justify-content: space-between;
   z-index: 1;
+  flex-direction: row;
+  align-content: center;
 }
 .table__cell_theme_dark {
   width: 200px;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
 }
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  margin: 0;
   color: #f2f2f2;
 }
 .table__text_theme_dark {
@@ -283,38 +280,33 @@ span.two-columnc__span-accent {
 }
 .footer {
   background-color: #1f1f1f;
-  min-height: 350px;
-  position: relative;
+  max-height: 350px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  flex-direction: column;
 }
 .footer__columns {
   display: flex;
   flex-basis: 711px;
-  min-width: 90%;
-  margin-top: 60px;
-  margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
-  align-content: space-around;
+  width: 90%;
+  margin: 60px auto 40px auto;
   justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .footer__column_content_copyright {
-  margin-left: 0;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
+  align-items: flex-start;
 }
 .logo_place_footer {
   max-height: 35px;
   max-width: 183px;
 }
 .footer__author {
-  margin-top: 18px;
-  margin-left: 0;
-  margin-bottom: 18px;
+  margin: 18px 0 18px 0;
   color: #f2f2f2;
   line-height: 25px;
   font-size: 18px;
@@ -361,7 +353,14 @@ span.two-columnc__span-accent {
   font-size: 18px;
   font-weight: bold;
   color: #f2f2f2;
-  margin: 0;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  margin-top: 20px;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
