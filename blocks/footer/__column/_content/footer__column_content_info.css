@@ -1,0 +1,6 @@
+.footer__column_content_info {
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+}

@@ -1,0 +1,8 @@
+.two-columns {
+  margin: 100px auto 100px auto;
+  display: flex;
+  min-width: 784px;
+  width: 80%;
+  justify-content: space-between;
+  z-index: 50;
+}

@@ -1,0 +1,15 @@
+.kaufman__triangle {
+  z-index: -1;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  right: -210px;
+  top: 0;
+  bottom: 0;
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  background-image: url("../../../blocks/images/kaufman-triangle.svg");
+  animation: triangle 15s infinite ease-in-out;
+}
