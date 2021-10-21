@@ -10,6 +10,5 @@
   width: 877px;
   height: 877px;
   position: absolute;
-  background-image: url("../../../blocks/images/kaufman-triangle.svg");
-  animation: triangle 15s infinite ease-in-out;
+  background-image: url("../../../images/kaufman-triangle.svg");
 }
