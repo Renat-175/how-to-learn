@@ -4,8 +4,5 @@
   z-index: 480;
 }
 .header__link:hover {
-  color: #2f80ed;
-  transition: link 35s ease-in-out 25s;
-  background: #fff;
-  opacity: 0.44;
+  opacity: 0.6;
 }
